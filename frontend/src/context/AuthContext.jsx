@@ -71,7 +71,7 @@ export const AuthProvider = ({ children }) => {
       setUser(userData);
       setToken(userToken);
       
-      addToast(`Welcome to AuthFlow, ${userData.name}!`, 'success');
+      addToast(`Welcome to AegisGate, ${userData.name}!`, 'success');
       return { success: true };
     } catch (error) {
       const errorMsg = error.response?.data?.message || 'Registration failed';

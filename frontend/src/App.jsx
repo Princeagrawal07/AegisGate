@@ -22,7 +22,7 @@ const Header = () => {
       <div className="header-content">
         <Link to="/" className="logo-container">
           <Shield className="logo-icon" />
-          <span className="logo-text">AuthFlow</span>
+          <span className="logo-text">AegisGate</span>
         </Link>
 
         <nav className="nav-links">
